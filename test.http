@@ -8,9 +8,17 @@ post {{url}}/register HTTP/1.1
 {{json}}
 
 {
-   "username": "user2",
+   "username": "user3",
    "password": "123456" 
 }
 ###登录
 POST {{url}}/login HTTP/1.1
 {{json}}
+
+{
+   "username": "user3",
+   "password": "123456" 
+}
+
+ ###AS 
+GET {{url}}/profile HTTP/1.1
